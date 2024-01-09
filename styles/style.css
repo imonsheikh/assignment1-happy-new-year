@@ -1,10 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+#position {
+  background-image: url("../resources/Banner\ Image.png");
+  width: 85%;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  height: 800px;
+  background-position: center;
+}
+.banner {
+  padding-top: 40px;
+}
+.banner .banner_title {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  align-items: center;
+  padding-top: 200px;
+}
+.banner .banner_heading {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+  align-items: center;
+  justify-content: center;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif;
-    
+.offer_section .offer {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.offer_section .offer_description {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.catagories .section_heading {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+}
+.catagories .img {
+  width: 800px;
+  height: 500px;
+  display: block;
+  margin: 50px auto;
+}
+.welcome {
+  background-image: url("../resources/Vectorrr.png");
+  width: 85%;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  height: 800px;
+  background-position: center;
+}
+
+/* .section_img{
+    align-items: center;
+} */
+
+.notice {
+  background: #e1dada;
+  text-align: center;
+  padding: 70px 0;
+  width: 70%;
+  margin: 0px auto;
+  margin-bottom: 120px;
+}
+.notice .notice_message .black {
+  color: #070211;
+}
+.notice .notice_message .red {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+}
+.notice .btn {
+  color: #fff;
+  background: red;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  display: inline-flex;
+  padding: 14px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.best_offer {
+  display: flex;
+  gap: 40px;
+  width: 70%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.best_offer .offer2_description,
+.offer2_description {
+  color: #f00;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+}
+.best_offer h4,
+.portfolio_heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.best_offer p,
+.portfolio_des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.item2 .circle {
+  border: 15px solid red;
+  border-radius: 500px;
+  padding: 20px;
+}
+.item3 h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.item3 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.portfolio {
+  width: 70%;
+  margin: 0 auto;
+}
+.offer_title {
+  margin-top: 90px;
+  width: 70%;
+}
+.portfolio_img img {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.subscribe {
+  width: 70%;
+  background-color: #e1dada;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+.btn_s {
+  padding: 20px 60px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 0 30px 30px 0;
+
+}
+.search input {
+  width: 400px;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 30px 0px 0px 30px;
+  border: none;
+
+}
+.search{
+  
 }
