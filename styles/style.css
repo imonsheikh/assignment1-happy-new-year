@@ -210,6 +210,21 @@
   border: none;
 
 }
-.search{
-  
+
+
+
+footer{
+    background: #070211;
+    height: 600px;
+    justify-content: space-around;
+    display: flex;
+
+}
+footer{
+    gap: 50px;
+}
+
+.foot_text{
+    color: white;
+    margin-top: 200px;
 }
